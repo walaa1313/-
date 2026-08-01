@@ -1,0 +1,326 @@
+/*body styling */
+body{
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    direction: rtl;
+    overflow-x: hidden;
+    line-height: 1.6;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*body styling */
+/*--------------------------------------------------------*/
+
+/* hero section */
+
+.hero{
+    height: 500px;
+    background-image: url("school.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.9;
+    color: black;
+    font-size: medium;
+    font-weight: 1000;
+    
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+
+    display:flex;
+    justify-content:right;
+    align-items:right;
+
+    text-align:right;
+
+}
+
+
+.content h1{
+    font-size:50px;
+    margin-bottom:20px;
+    margin-top:20px;      
+    margin-right:20px;    
+    margin-bottom:20px;   
+    margin-left:20px; 
+    color: deeppink;    
+}
+
+.content h3{
+    font-size:20px;
+    margin-bottom:30px;
+    margin-top:20px;      
+    margin-right:20px;    
+    margin-bottom:20px;   
+    margin-left:20px;     
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#102B5C;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin: 20px;
+}
+.btn:hover{
+    color: deeppink;
+    mask-border-outset: calc();
+
+}
+
+/* hero section */
+/*--------------------------------------------------------*/
+
+/* cards section */
+
+.cards-box{
+    display: flex;
+    gap: 150px;
+    margin: 50px;
+    margin-top: 50px;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.cards-box h3 {
+    color: deeppink;
+
+}
+
+.cards-box p{
+    color: rgb(65, 63, 63);
+}
+.second-section {
+    
+    color: rgb(65, 63, 63);
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+/* cards section */
+/*--------------------------------------------------------*/
+
+/* ===== Header ===== */
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.logo h2{
+    color: #102B5C;
+    font-size: 28px;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #102B5C;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #F4A825;
+}
+/* ===== Header ===== */
+/*--------------------------------------------------------*/
+
+/* ===================
+   About Section
+=================== */
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    background-color: white;
+    gap: 50px;
+    color: #102B5C;
+}
+
+.about-image{
+    width: 50%;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 12px;
+    height: 450px;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h2{
+    color:#102B5C ;
+
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-text .btn{
+    display: inline-block;
+    background-color: #102B5C;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.about-text .btn:hover{
+    background-color: #0b2046;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 80px;
+    background: white;
+}
+
+/* ==========================
+   Register Section
+========================== */
+
+.register{
+
+    background:#ffffff;
+
+    padding:80px 20px;
+
+    text-align:center;
+
+}
+
+.register h2{
+
+    color:#102B5C;
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+.register p{
+
+    color:#666;
+
+    margin-bottom:40px;
+
+}
+
+.register form{
+
+    width:600px;
+
+    max-width:90%;
+
+    margin:auto;
+
+}
+
+.register input,
+.register select,
+.register textarea{
+
+    width:100%;
+
+    padding:15px;
+
+    margin-bottom:20px;
+
+    border:1px solid #cccccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    outline:none;
+
+    font-family:"Cairo",sans-serif;
+
+}
+
+.register textarea{
+
+    height:120px;
+
+    resize:none;
+
+}
+
+.register input:focus,
+.register select:focus,
+.register textarea:focus{
+
+    border-color:#102B5C;
+
+}
+
+.register button{
+
+    background:#102B5C;
+
+    color:white;
+
+    border:none;
+
+    padding:15px 35px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.register button:hover{
+
+    background:#0b2046;
+    color: deeppink;
+
+}
